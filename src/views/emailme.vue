@@ -2,7 +2,7 @@
 <div class="BB">
     <article class="article">
 	<h1>與我聯繫 (Contact me)</h1>
-	<p>歡迎各界，需要討論...等議題</p>
+	<p>歡迎各界，與我聯繫討論『教育政策、高等教育、教育評鑑、比較教育、教育治理』等議題。</p>
 	
 	<blockquote  >
 		<p>Hybridity is novel approach to conceptualizing HE governance, rather than another ideal typical form.</p>
@@ -12,9 +12,9 @@
 	</blockquote>
 
 	<!-- <h1>與我聯繫 (Contact me)</h1> -->
-	<h3>電子郵件：sljk@gmail.com</h3>
-	<h3>文件地址：</h3>
-	<h3>辦公時間：</h3>
+	<h3>電子郵件：cc.hsieh@mx.nthu.edu.tw</h3>
+	<h3>文件地址：國立清華大學教育與學習科技學系 ｜ 綜合教學大樓7樓702室</h3>
+	<h3>分機：73011</h3>
 	 
 </article>
 

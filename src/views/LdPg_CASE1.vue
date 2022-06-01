@@ -52,7 +52,7 @@
 							to="introList_CASE1"
 							class=" animate-bounce "
 						>
-							了解,研究內容
+							了解,研究理念
 						</v-btn>  
 					</v-card-actions>
 

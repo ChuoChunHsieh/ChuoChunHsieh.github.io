@@ -52,13 +52,21 @@
 			<v-tabs color="#5F7161">
 				<v-tab>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
-			</svg> 熱門文章 / 最新消息 編輯
+						<path stroke-linecap="round" stroke-linejoin="round" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+					</svg> 
+					熱門文章 / 最新消息 編輯
 				</v-tab>
 				<v-tab>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-			</svg> 研究理念
+						<path stroke-linecap="round" stroke-linejoin="round" d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z" />
+					</svg> 
+					自我介紹 編輯
+				</v-tab>
+				<v-tab>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+					</svg> 
+					研究理念
 				</v-tab>
 				<v-tab>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -80,20 +88,37 @@
 			</svg>
 	        教育部計畫 / 科技部計畫 文章登入
 	      </v-tab> -->
+
+		  		
+
 				<v-tab>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-			</svg> 主題訊息 設定
+						<path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+					</svg> 
+					開發員工具
 				</v-tab>
+
+				<v-tab>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+					</svg>
+					首頁訊息 設定
+				</v-tab>
+
+				<v-tab>
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+						<path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+					</svg>
+					操作指南   
+				</v-tab> 
 
 				<!-- <v-tab>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 			</svg> 帳號 設定
 				</v-tab> -->
-	
-		
-	
+	<!-- // 1 -->
 				<v-tab-item>
 					<div class="flex">
 						<div class="w-1/3  m-5 bg-gray-50  p-3">
@@ -105,56 +130,70 @@
 						<div class="w-1/3  m-5 bg-gray-0  p-3">
 							<div class="flex flex-row justify-end py-3">
 	
-								<span class="text-xs text-blue-700 font-base tracking-wide mr-24">目前時間 : {{ transDate(cT) }} </span>
+								<!-- <span class="text-xs text-blue-700 font-base tracking-wide mr-24">目前時間 : {{ transDate(cT) }} </span> -->
 								<v-btn @click="savePost" dense small outlined class=" w-1/4 btn btn-dark btn-lg btn-block">儲存</v-btn>
-							</div>
-							<!-- 登入時間 : {{  }} -->
+							</div> 
 							<v-text-field outlined single-line dense v-model="title" label="主題"></v-text-field>
 	
-							<v-text-field outlined single-line dense v-model="url" label="文章連結" type="url"></v-text-field>
+							<!-- <v-text-field outlined single-line dense v-model="url" label="文章連結" type="url"></v-text-field> -->
 	
 							<div class="flex">
 								<v-autocomplete v-model="status" class="mx-2" :items="status_idx" dense outlined label="發文狀態">
 								</v-autocomplete>
 	
-								<v-autocomplete v-model="type" class="mx-2" :items="type_idx" dense outlined label="文章分類">
+								<v-autocomplete v-model="type" class="mx-2" :items="atcle_idx" dense outlined label="文章分類">
 								</v-autocomplete>
 	
-								<v-autocomplete v-model="lang" class="mx-2" :items="lang_idx" dense outlined label="語言分類">
-								</v-autocomplete>
-							</div>
-	
-	
-							<!-- <v-autocomplete :item="lang_idx" v-model="lang"></v-autocomplete> -->
-							<v-textarea outlined v-model="content" label="發文內容"></v-textarea>
+								<!-- <v-autocomplete v-model="lang" class="mx-2" :items="lang_idx" dense outlined label="語言分類">
+								</v-autocomplete> -->
+							</div> 
+							<v-textarea outlined 
+										auto-grow  
+										row-height="55"
+										v-model="content" 
+										label="發文內容"></v-textarea>
 	
 						</div>
 	
 						<div class="w-1/3  "> 
+							<span class="text-xs "> 已建立文章：</span>
 	
 							<div v-for="(item, i) in blogList" :key="i">
-								<div class=" bg-blue-50 m-2 p-3" v-if="item.StudySrc != true && item.Idea == null">
+								<div class=" bg-blue-50 m-2 p-3" 
+								     v-if="item.StudySrc != true && item.Idea == null && item.status != '自我介紹' && item.status != '自我介紹_en' 
+									 	&& item.type=='熱門文章' | item.type=='最新消息' | item.type=='其他' ">
 	
 	
 									<span class="text-lg text-gray-700 font-base tracking-wide mr-3"> {{ item.title}}</span>
+									<br>
 									<span class="text-xs text-gray-700 font-base tracking-wide mr-3">#{{ item.type}} #{{ item.status}} #{{ item.lang}}</span>
 									<span class="text-xs text-gray-700 font-base tracking-wide mr-3">{{ transDate(item.time) }}</span>
 	
-									<v-btn @click="deletePost(item)" dense small outlined class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">刪除</v-btn>
-									<!-- <v-btn  @click="ModifyPost(item,'草稿')" dense small outlined class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">草稿</v-btn> -->
-									<v-btn @click="ModifyPost(item,'公開')" dense small outlined class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">公開</v-btn>
-	
-									<v-btn @click="ModifyPost(item,'暫時隱藏')" dense small outlined class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">隱藏</v-btn>
-									<v-btn @click="ModifyCnten(item,item.content)" dense small dark solo class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">存檔</v-btn>
+									
 									<!-- <v-checkbox dense hide-details small-x v-model="item.edit_b"  label="編輯"  >  </v-checkbox> -->
-									<v-btn-toggle v-model="item.edit_b" color="light-blue darken-2" dense group multiple>
-										<v-btn :value="1" class="">
-											<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-				<path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-			  </svg>
-										</v-btn>
-	
+									<v-btn-toggle
+										v-model="item.edit_b" 
+										dense
+										x-small
+										title
+        								color="deep-purple accent-3"
+										multiple
+									>
+									<!-- <v-btn-toggle v-model="item.edit_b" dark solo background-color="#AED581" dense group multiple> -->
+										<v-btn :value="1"  >
+											<!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+												<path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+											</svg> -->
+											啟動調整
+										</v-btn> 
+
+										<v-btn :value="2" @click="deletePost(item)"   class="     btn btn-dark btn-lg btn-block">刪除</v-btn> 
+										<v-btn :value="3"  @click="ModifyPost(item,'公開')"    class="   mxbtn btn-dark btn-lg btn-block">公開</v-btn>
+										<v-btn :value="4"  @click="ModifyPost(item,'暫時隱藏')"    class="   btn btn-dark btn-lg btn-block">隱藏文章</v-btn>
+									 
 									</v-btn-toggle>
+									<v-btn @click="ModifyCnten(item,item.content)" dense small dark solo class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">存檔</v-btn>
+									
 	
 									<v-textarea v-show="item.edit_b == true" class="my-2" label="發文內容" outlined v-model="item.content"></v-textarea>
 	
@@ -167,7 +206,84 @@
 						</div>
 					</div>
 				</v-tab-item>
+	<!-- // 2 -->
+			    <v-tab-item>
+					<div class="flex">
 
+						<div class="w-1/2  ">  
+	
+							<div v-for="(item, i) in blogList" :key="i">
+								<div class=" m-2 p-3" v-if="item.StudySrc != true && item.Idea == null && item.status == '自我介紹' ">
+	 
+									<v-btn @click="ModifyCnten(item,item.content)" 
+											dense small dark solo 
+											class=" w-1/7 m-3 btn btn-dark btn-lg btn-block">
+									       存檔
+									</v-btn>
+	
+									<v-textarea class="" label="編輯 .自我介紹" outlined v-model="item.content"></v-textarea> 
+								</div>
+
+								<div class=" m-2 p-3" v-if="item.StudySrc != true && item.Idea == null && item.status == '自我介紹_en' ">
+	 
+									<v-btn @click="ModifyCnten(item,item.content)" 
+											dense small dark solo 
+											class=" w-1/7 m-3 btn btn-dark btn-lg btn-block">
+									       存檔
+									</v-btn>
+	
+									<v-textarea class="" label="編輯 .自我介紹(英文版)" outlined v-model="item.content"></v-textarea> 
+								</div>
+							</div> 
+						</div>
+						 
+						<div class="w-1/2 p-3">
+
+							<div class=" m-2 p-3 ">
+								<v-btn @click="opepURL('http://www.aqcoder.com/markdown')" 
+										dense small outlined 
+										class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">
+										 markdown 示範指南 1
+								</v-btn>
+
+								<v-btn @click="opepURL('https://markdownlivepreview.com/')" 
+										dense small outlined 
+										class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">
+										markdown 示範指南 2
+								</v-btn>
+
+								<v-btn @click="opepURL('https://ithelp.ithome.com.tw/articles/10203758')" 
+										dense small outlined 
+										class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">
+										markdown 示範指南 3
+								</v-btn> 
+							 </div>
+
+
+							<span class="text-xs "> 自我介紹 (中文) 如下：</span>
+							<div class="rounded-lg border-2 border-gray-200 m-2 p-3"> 
+		
+								<div v-for="(item, i) in blogList" :key="i">
+									<div class="" v-if="item.StudySrc != true && item.Idea == null && item.status == '自我介紹' ">  
+										<markdown-it-vue class="" :content="item.content" />
+									</div>
+								</div>
+								 
+							</div>
+							<span class="text-xs "> 自我介紹 (英文) 如下：</span>
+							<div class="rounded-lg border-2 border-gray-200 m-2 p-3"> 
+								
+								<div v-for="(item, i) in blogList" :key="i">
+									<div class="" v-if="item.StudySrc != true && item.Idea == null && item.status == '自我介紹_en' ">  
+										<markdown-it-vue class="" :content="item.content" />
+									</div>
+								</div> 
+							</div>
+						</div> 
+						
+					</div>
+				</v-tab-item>
+	<!-- // 3 -->
 				 <v-tab-item>
 					<div class="flex"> 
 						<div class="w-1/2  m-5 "> 
@@ -186,20 +302,14 @@
 									
 									<v-text-field outlined single-line dense v-model="url" label="資料來源"></v-text-field> 
 									<v-textarea outlined v-model="content" label="內文"></v-textarea> 
-								</div>
-	
-								<!-- <div class=" bg-gray-0  p-3">
-									<v-textarea outlined single-line dense v-model="title_en" label="主題句(英文)"></v-textarea>
-									
-									<v-text-field outlined single-line dense v-model="url" label="資料來源"></v-text-field> 
-									<v-textarea outlined v-model="content_en" label="內文(英文)"></v-textarea> 
-								</div>  -->
+								</div> 
+							 
 							</div>  
 						</div> 
 						<div class="w-1/2  "> 
 							<!-- {{ sortedArray }} -->  
 							<div v-for="(item, i) in blogList" :key="i"> 
-								<div class="rounded-lg  border-2 border-gray-200 m-2 p-3" v-if="item.Idea == true  && parseInt(item.Bk_year) == 1 " >   
+								<div class="rounded-lg border-2 border-gray-200 m-2 p-3" v-if="item.Idea == true  && parseInt(item.Bk_year) == 1 " >   
 									<div class="flex justify-end " >
 										<v-btn @click="deletePost(item)" dense x-small outlined class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">刪除</v-btn> 
 										<v-autocomplete
@@ -313,9 +423,9 @@
 							</div> 
 						</div>
 					</div>
-				</v-tab-item>
+				</v-tab-item> 
 	
-	
+	<!-- // 4 -->
 				<v-tab-item>
 					<div class="flex">
 	
@@ -373,30 +483,12 @@
 							</div>
 						</div>
 					</div>
-				</v-tab-item> 
+				</v-tab-item>  
 	
+	<!-- // 5 -->
 				<v-tab-item>
-					<div class="flex">
-
-						<div class="w-1/3  m-5 bg-gray-0  p-3 ">  
-							<span class="text-xs text-gray-700 font-base tracking-wide mr-3"> 中文版內容 </span>
-	
-							<v-textarea outlined single-line dense v-model="type" label="最新消息"></v-textarea> 
-							<v-textarea outlined single-line dense v-model="content" label="個人簡介"></v-textarea>
-							<v-textarea outlined single-line dense v-model="content" label="熱衷議題"></v-textarea>
-	
-							<hr>
-							<span class="text-xs text-gray-700 font-base tracking-wide mr-3"> 英文版內容 </span> 
-	
-	 						<v-textarea outlined single-line dense v-model="content_en" label="最新消息 (英文)"></v-textarea>
-							 <v-textarea outlined single-line dense v-model="content_en" label="個人簡介 (英文)"></v-textarea>
-							<v-textarea outlined single-line dense v-model="content_en" label="熱衷議題 (英文)"></v-textarea>
-	
-							<v-btn @click="saveBlogSt" dense dark class=" w-full btn btn-dark btn-lg btn-block">儲存</v-btn> 
-						</div>
-
-	
-						<div class="w-1/3  m-5 bg-gray-0  p-3 ">
+					<div class="flex">  
+						<div class="w-2/5  m-5 bg-gray-0  p-3 ">
 	
 							<span class="text-xs text-gray-700 font-base tracking-wide mr-3"> 中文版內容 </span>
 	
@@ -416,43 +508,132 @@
 							<v-btn @click="saveBlogSt" dense dark class=" w-full btn btn-dark btn-lg btn-block">儲存</v-btn>
 	
 						</div>
-						<div class="w-1/3  ">
+						<div class="w-3/5  ">
 							<div v-for="(item, i) in blogSt" :key="i">
-								<div class=" bg-blue-50 m-2 p-3">
-									<div class="flex">
+								<div class=" bg-blue-50 m-2 p-3" v-show="item.type !='個人簡介' && item.type !='最新消息' && item.type !='熱衷議題'"> 
+									<div class="grid grid-cols-5 gap-1">
+										<div class="col-span-3 flex" >
+											<v-text-field outlined single-line dense 
+														  class="px-2"
+														  v-show="item.edit_b == true" v-model="item.type" label="信息主題"></v-text-field>
 	
-										<v-text-field outlined single-line dense v-show="item.edit_b == true" v-model="item.type" label="信息主題"></v-text-field>
+									    	<v-text-field outlined single-line dense
+														  class="px-2" 
+														  v-show="item.edit_b == true" v-model="item.type_en" label="信息主題_en"></v-text-field>
 	
-										<v-text-field outlined single-line dense v-show="item.edit_b == true" v-model="item.type_en" label="信息主題_en"></v-text-field>
+										</div> 
+										<div class="flex">
+											<v-btn @click="deleteBlogSt(item)" v-show="item.edit_b == true" dense small dark solo class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">刪除 </v-btn>
 	
-										<v-btn @click="deleteBlogSt(item)" v-show="item.edit_b == true" dense small dark solo class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">刪除 </v-btn>
-	
-										<v-btn @click="MdfSt(item,item.content)" dense small dark solo class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">更新</v-btn>
-	
-	
-										<v-checkbox v-model="item.edit_b" dense label="DevOpts" class=" w-auto mx-1 btn btn-dark btn-lg btn-block"></v-checkbox>
-	
-	
-	
+										    <v-btn @click="MdfSt(item,item.content)" dense small dark solo class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">更新</v-btn>
+											<!-- <v-checkbox  dense label="DevOpts" class=" w-auto mx-1 btn btn-dark btn-lg btn-block"></v-checkbox> -->
+	  										<input type="checkbox"  v-model="item.edit_b" id="cbox1" value="true"> Otps </input>
+										</div>
 									</div>
-	
-									<span class="text-xs text-gray-700 font-base tracking-wide mr-3">{{ item.type }}</span>
-	
-									<v-text-field outlined single-line dense v-model="item.content" label="信息內容"></v-text-field>
-	
-									<span class="text-xs text-gray-700 font-base tracking-wide mr-3">{{ item.type_en }}</span>
-	
-									<v-text-field outlined single-line dense v-model="item.content_en" label="信息內容_en"></v-text-field>
+
+									<div class="grid grid-cols-2 gap-1">
+										<div class="flex" >
+											<span class="text-xs text-gray-700 font-base tracking-wide mr-3">{{ item.type }}
+											</span>
+		
+											<v-text-field outlined single-line dense v-model="item.content" label="信息內容">
+											</v-text-field> 
+										</div> 
+										<div class="flex">
+											<span class="text-xs text-gray-700 font-base tracking-wide mr-3">{{ item.type_en }}
+											</span>
+			
+											<v-text-field outlined single-line dense v-model="item.content_en" label="信息內容_en">
+											</v-text-field> 
+										</div>
+									</div>
+									 
 								</div>
 							</div>
 						</div>
 					</div>
-				</v-tab-item>  
+				</v-tab-item> 
+
+	<!-- // 6 -->
+				<v-tab-item>
+					<div class="flex"> 
+						<div class="w-screen bg-gray-50 ">
+							<div v-for="(item, i) in blogSt" :key="i">
+								<div class=" bg-gray-50 m-2 p-3" v-show="item.type =='個人簡介' | item.type =='最新消息' | item.type =='熱衷議題' | item.type =='關鍵字'">  
+									
+									<div class="grid grid-cols-2 gap-1">
+										  <span class="text-xs text-gray-700 font-base tracking-wide mr-3">{{ item.type }} </span> 
+										<div class="col-span-1 item-right">
+										 
+											<span class="text-xs text-gray-700 font-base tracking-wide mr-3">{{ item.type_en }} </span>
+
+											<v-btn @click="MdfSt_landingPg(item,item.content,item.content_en)" dense small dark solo class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">更新</v-btn>
+										</div>
+											<v-textarea 
+											outlined single-line dense 
+											class="p-2"
+											v-model="item.content" 
+											label="信息內容">
+											</v-textarea> 
+											 <v-textarea 
+											 outlined single-line dense 
+											 class="p-2"
+											 v-model="item.content_en" 
+											 label="信息內容 (英文)">
+											 </v-textarea> 
+									</div>
+									 
+								</div>
+							</div>
+						</div>
+
+
+						<!-- <div class="w-1/2  m-5 bg-gray-0  p-3 ">  
+							<span class="text-xs text-gray-700 font-base tracking-wide mr-3"> 中文版內容 </span>
+	
+							<v-textarea outlined single-line dense v-model="type" label="最新消息"></v-textarea> 
+							<v-textarea outlined single-line dense v-model="content" label="個人簡介"></v-textarea>
+							<v-textarea outlined single-line dense v-model="content" label="熱衷議題"></v-textarea>
+	 
+						</div>
+
+						<div class="w-1/2  m-5 bg-gray-0  p-3 ">  
+							 
+							<span class="text-xs text-gray-700 font-base tracking-wide mr-3"> 英文版內容 </span> 
+	
+	 						<v-textarea outlined single-line dense v-model="content_en" label="最新消息 (英文)"></v-textarea>
+							 <v-textarea outlined single-line dense v-model="content_en" label="個人簡介 (英文)"></v-textarea>
+							<v-textarea outlined single-line dense v-model="content_en" label="熱衷議題 (英文)"></v-textarea>
+	
+							<v-btn @click="saveBlogSt" dense dark class=" w-full btn btn-dark btn-lg btn-block">儲存</v-btn> 
+						</div> -->
+
+
+	 
+					</div>
+				</v-tab-item>
+
+	<!-- // 7 -->			
+				<v-tab-item class = "h-screen m-10">
+
+
+					<v-btn @click="opepURL('http://www.aqcoder.com/markdown')" 
+					        dense small outlined 
+							class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">
+							看 markdown 示範指南 1
+					</v-btn>
+
+					<v-btn @click="opepURL('https://markdownlivepreview.com/')" 
+					        dense small outlined 
+							class=" w-1/7 mx-1 btn btn-dark btn-lg btn-block">
+							看 markdown 示範指南 2
+					</v-btn>
+
+
+				</v-tab-item>
 
 				<v-tab-item>
-					<div class="flex">
-						
-
+					<div class="flex"> 
 						 <!-- <v-text-field outlined single-line dense v-model="content_en" label="信息內容 (英文) "></v-text-field> -->
 	
 					    <v-btn @click="eMail_Sent" dense dark 
@@ -530,6 +711,8 @@
 						</div>
 					</div>
 				</v-tab-item> 
+
+				
 			</v-tabs>
 		</v-card> 
 		</div>
@@ -604,7 +787,8 @@ import firebase from 'firebase';
  			status_idx: ['草稿', '公開', '暫時隱藏'],
 			idea_idx: [1,2,3,4,5,6], 
  			lang_idx: ['未分類', '中文為主', '英文為主', '中英兼備'],
- 			type_idx: ['學術論文', '學術論壇', '專書專刊', '教育部計畫', '科技部計畫', '指導研究'],
+ 			atcle_idx: ['熱門文章', '最新消息','其他'],
+			type_idx: ['學術論文', '學術論壇', '專書專刊', '教育部計畫', '科技部計畫', '指導研究'],
  			type_idx_un: ['未分類', '學術論文', '學術論壇', '專書專刊', '教育部計畫', '科技部計畫', '指導研究'], 
  		}
  	},
@@ -849,21 +1033,53 @@ alert(user.email+ " here is Done")
  					console.log(e);
  				});
  		},
- 		deletePost(e) {
- 			blogDataService.delete(e.key)
+		MdfSt_landingPg(e, c10,c10e,) {
+ 			var r = {
+ 				content: c10,
+				content_en: c10e, 
+ 			}
+ 			blogStDataService.update(e.key, r)
  				.then(() => {
  					Swal.fire({
- 						icon: 'error',
- 						title: '完成刪除',
- 						text: '系統 已將刪除完畢',
+ 						icon: 'success',
+ 						title: '完成更新',
  						time: 2000,
 
  					})
- 					window.reload();
+ 					this.$emit("refreshList");
  				})
  				.catch((e) => {
  					console.log(e);
  				});
+ 		},
+ 		deletePost(e) {
+
+			 Swal.fire({
+				title: '請問真的需要刪除文章嗎?',
+				showDenyButton: true, 
+				confirmButtonText: '確認刪除',
+				denyButtonText: `取消`,
+				}).then((result) => {
+				/* Read more about isConfirmed, isDenied below */
+				if (result.isConfirmed) {
+					blogDataService.delete(e.key)
+					.then(() => {
+						Swal.fire({
+							icon: 'error',
+							title: '完成刪除',
+							text: '系統 已將刪除完畢',
+							time: 2000,
+
+						})
+						window.reload();
+					})
+					.catch((e) => {
+						console.log(e);
+					});
+				} else if (result.isDenied) {
+					Swal.fire('已取消刪除', '', 'info')
+				}
+				}) 
  		},
  		deleteBlogSt(e) {
  			blogStDataService.delete(e.key)

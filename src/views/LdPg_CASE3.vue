@@ -17,7 +17,7 @@
                     </button> 
 
                     <button   onclick="location.href='studyList_CASE1'"  class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-1 px-2 mx-2 animate-bounce  hover:border-gray-500 rounded">
-                    抽 一關鍵字
+                    了解 研究理念
                     </button> 
 
                     

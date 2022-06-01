@@ -13,31 +13,15 @@
 						<cite  >Aldous Huxley</cite>
 				</div>
 
-				<div class="col-span-3">
-					<!-- <div>
-						<div class=".d-none .d-sm-flex">
-							仅在 xs 大小时隐藏
-						</div>
-
-						<div class=".d-none .d-md-flex .d-lg-none">
-							仅在 md 大小时可见
-						</div>
-
-						
-						<div class="d-none d-lg-block">
-							hide on screens smaller than lg
-						</div>
-					</div> -->
-
-					
-
+				<div class="col-span-3"> 
 					<v-card-title>個人簡介</v-card-title> 
 					<v-card-text>
 						<v-row
 							align="center"
 							class="mx-0"
 						> 
-						{{  uDat[0].intro}}   
+						{{  fltr_stp1[0].content }} 
+						{{  fltr_stp1[0].content_en }}    
 						</v-row>
 					</v-card-text>
 				</div>
@@ -49,15 +33,15 @@
 							align="center"
 							class="mx-0"
 						>
-						{{  uDat[0].news }}  
+						{{  fltr_stp2[0].content }} 
+						{{  fltr_stp2[0].content_en }}  
 						</v-row>
 					</v-card-text> 
 				</div>
 				<div class="col-span-5"></div>
 				<div class="col-span-5"> 
 					<v-card-title>
-						熱衷議題
-	
+						熱衷議題 
 						<div class="flex justify-start">
 							<v-card-actions>
 								<v-btn
@@ -67,7 +51,7 @@
 									to="introList_CASE1"
 									class=" animate-bounce "
 								>
-									了解,研究內容
+									了解,研究理念
 								</v-btn>  
 							</v-card-actions>
 
@@ -85,7 +69,13 @@
 						</div>
 					</v-card-title> 
 					<v-card-text>  
-						<div>{{  uDat[0].nt1 }}  {{  uDat[0].nt2 }}  </div> 
+						<div> 
+							{{  fltr_stp3[0].content }} 
+						    {{  fltr_stp3[0].content_en }}   
+<!-- .split(',') -->
+							<!-- {{ fltr_stp4[0].content }}
+							{{ fltr_stp4[1].content }} -->
+						</div> 
 					</v-card-text> 
 				</div>
 				<div class="col-span-1"></div> 
@@ -98,7 +88,7 @@
 						<!-- <div class="px-1  sx:text-base text-xl font-black text-red-600">[</div> -->
 							<div class=" ">
 								<vue-typed-js 
-								:strings=j
+								:strings=fltr_stp55
 								:loop="true" 
 								:typeSpeed="20" 
 								> 
@@ -111,7 +101,7 @@
 						<!-- <div class="px-1 sx:text-base text-xl font-black text-red-600">[</div> -->
 							<div class=" ">
 								<vue-typed-js 
-								:strings=j
+								:strings=fltr_stp55
 								:loop="true" 
 								:typeSpeed="10" 
 								> 
@@ -124,7 +114,7 @@
 						<!-- <div class="px-1  sx:text-base text-xl font-black text-red-600">[</div> -->
 							<div class=" ">
 								<vue-typed-js 
-								:strings=j
+								:strings=fltr_stp55
 								:loop="true" 
 								:typeSpeed="20" 
 								> 
@@ -137,7 +127,7 @@
 						<!-- <div class="px-1  sx:text-base text-xl font-black text-red-600">[</div> -->
 							<div class=" ">
 								<vue-typed-js 
-								:strings=j
+								:strings=fltr_stp55
 								:loop="true" 
 								:typeSpeed="30" 
 								> 
@@ -207,15 +197,20 @@
 <script>  
 
 import usersData from "../data/tmpDta.json";
+//  import blogDataService from "../services/blogDataService"
+  import blogStDataService from "../services/blogStDataService"
 
 export default {
   
   data() {
     return {
+		blogList: [],
+		blogSt:[],
 		uDat:usersData,
       dialog: false,
       dialog2: false,
-	  j:['現代東亞.儒家社會', '大學教育機構','','hybird(混雜)','policy borrowing','差異divergence','相似convergence',''],
+
+	//   fltr_stp4:['現代東亞.儒家社會', '大學教育機構','','hybird(混雜)','policy borrowing','差異divergence','相似convergence',''],
 
 // windowWidt:800,
 // windowHeight:600,
@@ -236,14 +231,69 @@ export default {
 //               },
     }
   },
-  components: { 
+  computed: { 
+		fltr_stp1: function() { return this.blogSt.filter(c => c.type.indexOf('個人簡介') !== -1); },
+		fltr_stp2: function() { return this.blogSt.filter(c => c.type.indexOf('最新消息') !== -1); },
+		fltr_stp3: function() { return this.blogSt.filter(c => c.type.indexOf('熱衷議題') !== -1); },
+		// fltr_stp44: function() { return this.blogSt.filter(c => c.type.indexOf('關鍵字') !== -1); },
+
+		fltr_stp4: function() {  return this.blogSt.filter(c => c.type.indexOf('關鍵字') !== -1); },
+fltr_stp55:  function() {  return this.fltr_stp4[0].content.split(',') ; },
+
+// 		const words = str.split(' ');
+// console.log(words[3]);
+		
   },
   methods: { 
+
+	  blogSt_onDataChange(items) {
+ 			let _tutorials = [];
+ 			items.forEach((item) => {
+ 				let key = item.key;
+ 				let data = item.val();
+ 				_tutorials.push({
+ 					key: key,
+
+ 					type: data.type,
+ 					content: data.content,
+ 					type_en: data.type_en,
+ 					content_en: data.content_en,
+
+ 					edit_b: data.edit_b,
+ 					time: data.time,
+ 				});
+ 			});
+ 			this.blogSt = _tutorials;
+ 		},
+
+	  blog_onDataChange(items) {
+ 			let _tutorials = [];
+ 			items.forEach((item) => {
+ 				let key = item.key;
+ 				let data = item.val();
+ 				_tutorials.push({
+ 					key: key,
+ 					content: data.content,
+ 					type: data.type,
+ 					status: data.status,
+ 					lang: data.lang,
+ 					title: data.title,
+ 					title_en: data.title_en,
+ 					time: data.time,
+ 					Bk_year: data.Bk_year,
+ 					url: data.url,
+ 					edit_b: data.edit_b,
+ 					StudySrc: data.StudySrc,
+ 					Idea: data.Idea,
+ 				});
+ 			});
+ 			this.blogList = _tutorials;
+ 		},
   },
-  mounted() {
-   
-     
-  }
+  mounted() {  
+ 		// blogDataService.getAll().on("value", this.blog_onDataChange);
+		 blogStDataService.getAll().on("value", this.blogSt_onDataChange);  
+ 	}
 }
 </script>
 
